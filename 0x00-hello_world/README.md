@@ -1,2 +1,3 @@
-save a file to another
-1. script that generates assembly code
+0.save a file to another
+1. compile and does not link
+2.Write a script that generates the assembly code of a C code and save it in an output file.
