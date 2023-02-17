@@ -3,6 +3,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Prints a random number and states whether
+ *        it is positive, negative, or zero.
+ *
+ * Return: Always 0.
+*/
 int main(void)
 {
 	int n;
@@ -12,15 +18,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("is positive"\n);
+		printf("is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("is zero"\n);
+		printf("is zero\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("is negative"\n);
+		printf("is negative\n", n);
 	}
 	return (0);
 }
